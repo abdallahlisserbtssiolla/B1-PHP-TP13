@@ -7,10 +7,7 @@
 
 	try {
 		
-		// La variable $produits (tableau de tableaux associatifs) doit-être valorisée avec les valeurs de la table 
-		// Produit de la base de données.
-		// Chaque élément de la variable $produits est un tableau associatif qui correspond à un produit et dont les 
-		// deux éléments ont pour clés 'code' et 'libelle'.
+		
 		
 		$bd = new PDO(
 						'mysql:host=localhost;dbname=sanayabio_stocks' ,
